@@ -378,16 +378,16 @@ align-items: center;
 }
 
 .secondary-title {
-margin-right: auto;
-margin-bottom: 72px;
-margin-left: auto;
-  
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--title-color);
-  letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
+  
+  color: var(--title-color);
+  margin-right: auto;
+  margin-bottom: 72px;
+  margin-left: auto;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 
@@ -470,9 +470,6 @@ justify-content: center;
   gap:24px;
 }
 
-
- 
-
 .customers-icons {
   fill: var(--third-text-color);
 }
@@ -498,6 +495,7 @@ fill: var(--secondary-accent-color);
 }
 .customers-item {
   height: 88px;
+  width: 168px;
 }
 
 
