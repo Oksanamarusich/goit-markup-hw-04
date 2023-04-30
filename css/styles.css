@@ -471,7 +471,7 @@ justify-content: center;
 }
 
 .customers-icons {
- fill: currentColor; 
+ fill:currentColor; 
 }
 .customers-link {
   width: 100%;
@@ -487,7 +487,8 @@ justify-content: center;
 }
 .customers-link:hover,
 .customers-link:focus {
-border-color: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
+  border-color: var(--secondary-accent-color);
 }
 
 .customers-link:hover .customers-icons,
