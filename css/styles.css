@@ -368,7 +368,9 @@ align-items: center;
   | DOING
   |============================
 */
-
+.doing-section {
+  padding-top: 0;
+}
 
 .container-doing {
   
@@ -397,7 +399,9 @@ align-items: center;
   | OUR TEAM
 16px  |============================
 */
-
+.team-section {
+  background-color: var(--light-text-color);
+}
 
 .card-text {
 padding: 32px 0;
@@ -574,7 +578,7 @@ row-gap: 48px
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap:120px;
+  
 }
 .footer-primary {
   margin-right: 120px;
